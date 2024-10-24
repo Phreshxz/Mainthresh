@@ -1,0 +1,54 @@
+body {
+color: greenyellow;
+background: black; 
+margin: 0px;
+font-family: "Saira Condensed", sans-serif;
+margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px black;
+    padding: 20px;
+    font-size   : 35px;
+}
+.mylon{
+    background: green;
+ padding-bottom: 80px; 
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.chamada-texto{ 
+    margin-right: 40px;
+}
+h1{
+    color: lightgreen;
+    font-size: 40px;
+}
+p{
+    color: lightgreen;
+    font-size: 45px;
+}
+
+.builds{
+    display: flex;
+  
+    gap: 15px;
+}
+h2{
+    font-size: 40px;
+}
+.thresh{
+    padding-left: 20px;
+    padding-right: 20px ;
+ margin-top: 50px;
+}
+.builds img {
+    opacity: 0.1; 
+    height: 250px;
+}
+.builds img:hover {
+    opacity: 1.0;
+    border: 2px solid darkgreen;
+}
